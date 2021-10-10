@@ -1,37 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
   background-color: #621402;
-  color: #ffffff;margin: 0;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Roboto";
 }
-.container {
-  min-width: 1170px;
-  margin: auto;
-}
-.header {
-  margin-top: 30px;
-  margin-bottom: 30px;
+
+.navbar {
   display: flex;
   align-items: center;
+
 }
+
+.container {
+  padding-left: 135px;
+  padding-right: 136px;
+}
+
+.nav {
+  margin-left: 57px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.header {
+  min-height: 100vh;
+  background: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url(../img/bg.jpeg) no-repeat center top / cover;
+}
+
 .menu {
   list-style-type: none;
   text-decoration: none;
   display: flex;
 }
+
 .menu-item {
   margin-right: 25px;
 }
+
 .menu-link {
   color: #ffffff;
   text-decoration: none;
 }
+
 .user {
   margin-left: auto;
   display: flex;
   align-items: center;
 }
+
 .user-image {
   width: 33px;
   height: 33px;
   border-radius: 50%;
   margin-left: 11px;
+}
+
+.film {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.film-title-en {
+  color: rgba(255, 255, 255, .5);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+.film-title-ru {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.film-description {
+  font-size: 16px;
+  line-height: 150%;
+  width: 570px;
+  height: 168px;
+}
+.film-trailer{ 
+  margin: auto;
+}
+.fil-details{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.film-time {
+  display: flex;
+  align-items: center;
+  margin-right: 34px;
+}
+.time-icon {
+  
+}
+.film-rating{
 }
