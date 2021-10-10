@@ -96,7 +96,12 @@ body {
   margin-right: 34px;
 }
 .time-icon {
-  
+  margin-right: 14px;
 }
-.film-rating{
+.film-rating {
+  display: flex;
+  justify-content: center;
+}
+.rating{
+  margin-left: 12px;
 }
